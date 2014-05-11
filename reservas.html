@@ -5,16 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!--[if IE 6]>
 <script src="js/png_fix.js"></script>
-<script>
 
-  /* EXAMPLE */
-  DD_belatedPNG.fix('#pizza, #nav, #logo, img, #contactInfo, #intro');
-  
-  /* string argument can be any CSS selector */
-  /* .png_bg example is unnecessary */
-  /* change it to what suits you! */
-  
-</script>
 
 <![endif]-->  
 <title>Projeto Pizzaria</title>
@@ -43,21 +34,25 @@ Cufon.replace('.ownerSig, .Delivery', { fontFamily: 'BlackJack' });
 			
 			<div id="nav">
 				<ul id="list">
-					<li class="navPad"><a class="activePage" href="index.html" id="homePage">Home</a></li> 
+					<li class="navPad"><a  href="index.html" id="homePage">Home</a></li> 
 					<li><img src="images/star.png" alt=" " width="26" height="38" /></li>
-					<li class="navPad"><a href="sobre.html" id="aboutPage">Sobre Nós</a></li>
+					<li class="navPad"><a  href="sobre.html" id="aboutPage">Sobre Nós</a></li>
 					<li><img src="images/star.png" alt=" " width="26" height="38" /></li>
 					<li class="navPad"><a href="cardapio.html" id="menuPage">Cardápio</a></li>
 					<li><img src="images/star.png" alt=" " width="26" height="38" /></li>
-					<li class="navPad"><a href="reservas.html" id="reservePage">Reservas</a></li>
+					<li class="navPad"><a class="activePage" href="reservas.html" id="reservePage">Reservas</a></li>
 					<li><img src="images/star.png" alt=" " width="26" height="38" /></li>
-					<li class="navPad"><a href="contact.html" id="contactPage">Contato</a></li>
+					<li class="navPad"><a href="contato.html" id="contactPage">Contato</a></li>
 				</ul><!--END list-->
 			</div><!--End nav-->
 			
 		<div id="intro">
-				<p id="text">Tradição, qualidade e o melhor da pizza na sua região. <br /></p>
-				<p class="owner textWhite ownerSig">A verdadeira pizza italiana</p>
+				<p id="text">Saboreie a melhor pizza da região em um ambiente familiar</p>
+				<p class="textDark">Nossa Pizzaria é conhecida como a mais tradicional da região, utilizando de receitas e metódos de fabricação como as feitas na região de Napóles no sul da Itália.</p>
+				<p class="textDark">Nosso ambiente aconchegante e agradável possui música ao vivo para você sentir em um luga r para saborear os melhores momentos da sua vida.</p>
+				<p class="textDark">Para quem deseja degustar nossas pizzas em sua própria residência, nós disponibilizamos um serviço de rápida entrega para você não precisar sair de casa.</p>
+				<p class="textDark">Venha para a Projeto Pizzaria e sinta-se como é a saborosa uma pizza italiana perto de sua casa</p>
+				
 			</div><!--intro-->
 		
 		
@@ -81,75 +76,16 @@ Cufon.replace('.ownerSig, .Delivery', { fontFamily: 'BlackJack' });
 			<div id="contactInfo">
 				<img id="phone" src="images/phone.png" alt="Contact Information" height="72" width="84" />
 			</div><!--END contactInfo-->
+			<div id="home" class="top530">
+				<p><img src="images/ambiente.jpg" alt="sobre" width="580px" height="197px"  /></p>
+			</div><!--home-->
 			
-			<div id="home">
-			<div id="locationFinder">
-				<div id="boxTop"></div>
-				<div id="boxMiddle">
-					<p class="textDark">A mais de 20 anos a Pizzaria Projeto faz as melhores pizzas da região com a receita das tradicionais pizzairas italianas.
-				   </p>
-				   <p class="textDark">Traga sua família ou encomende pelo nosso serviço de entregas.
-				   </p>
-				    <p class="textDark">Preencha nosso formulário abaixo e receba nosso menu de pizzas e preços.
-				   </p>
-				   
-				   <div id="inputBoxes">
-						<form action=""  method="post"> 
-							<p class="textYellow">Nome:</p>
-				   			<input type="text" id="zip" name="nome" />
-							<p class="textYellow">Email:</p>
-				   			<input type="text" id="zip" name="email" />
-							<input class="send" type="submit" value=" " name="Enviar" />	 
-						</form>
-				   </div><!--END inputBoxes-->
-				   
-				   
-				</div><!--END boxMiddle-->
-				<div id="boxBottom"></div>
-			</div><!--END locationfinder-->
 			
-			<div id="ourMenu">
-				<div id="menuTop">
-				
-				</div><!--END menuTop-->
-				
-				<div id="menuMiddle">
-					<ul class="textDark">
-						<li class="textYellow arrow">Menu de Pizza</li>
-						<li><a href="#">Napolitana</a></li>
-						<li><a href="#">Mussarella</a></li>
-						<li><a href="#">Calabresa</a></li>
-						<li><a href="#">Frango com catupiri</a></li>
-						<li><a href="#">Bolonhesa</a></li>
-					</ul>
-					
-				
-					<ul class="textDark">
-						<li class="textYellow arrow">Menu Esfihas</li>
-						<li><a href="#">Carne</a></li>
-						<li><a href="#">Queijo</a></li>
-						<li><a href="#">Atum</a></li>
-					</ul>
-					
-					<ul class="textDark">
-						<li class="textYellow arrow">Menu de Vinhos</li>
-						<li><a href="#">Vino Rosso</a></li>
-						<li><a href="#">Bianco</a></li>
-					</ul>
-						
-				</div><!--END menuMiddle-->
-				
-				<div id="menuBottom">
-				
-				</div><!--END menuBottom-->
-			
-			</div><!--END ourMenu--> 
-			</div><!--End home-->
 			<div class="clear"></div>
 		<div id="footer">
 			<div id="copywrite">
 				<p class="textDark">&copy; Todos os direitos reservados para Pizzaria Projetos</p>
-			</div><!--END copywrite-->
+			</div><!--copywrite-->
 			
 			<div id="footerNav">
 				<ul class="textDark">
@@ -157,15 +93,15 @@ Cufon.replace('.ownerSig, .Delivery', { fontFamily: 'BlackJack' });
 					<li style="color:#000">|</li>
 					<li><a href="sobre.html">Sobre nós</a></li>
 					<li style="color:#000">|</li>
-					<li><a href="menu.html">Menu</a></li>
-					<li style="color:#000">|</li>
 					<li><a href="cardapio.html">Cardápio</a></li>
+					<li style="color:#000">|</li>
+					<li><a href="menu.html">Reserva</a></li>
 					<li style="color:#000">|</li>
 					<li><a href="contato.html">Contato</a></li>
 				</ul>	
-			</div><!--END footerNav-->
-		</div><!--End footer-->
-</div><!--End wrapper--> 
+			</div><!--footerNav-->
+		</div><!--footer-->
+</div><!--wrapper--> 
 
 <script type="text/javascript"> Cufon.now(); </script>
 
