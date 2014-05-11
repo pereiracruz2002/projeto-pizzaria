@@ -1,0 +1,567 @@
+/*Begin the styles for the website*/
+
+.textYellow {
+	color: #ff9f00;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 16px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.textWhite {
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: .1em;
+} 
+
+.textDark {
+	color: #704943;
+	font-size: 11px;
+	line-height: 16px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.italic {
+	font-weight:normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: italic;
+	padding-bottom: 20px;
+	line-height:1.3em;
+}
+
+.padding {
+	padding: 0 0 5px 0;
+}
+
+.paddingBottom {
+	padding-bottom: 20px;
+}
+
+a:link, a:visited { color: #704943; }
+a:hover, a:active { color: #ff9f00; }
+#wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	height: 650px;
+	background: url(images/background.jpg) no-repeat;
+}
+
+#content {
+	padding: 20px;
+	height: 472px;
+}
+
+#pizza {
+	background: url(images/pizza.png);
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 360px;
+	height: 378px;
+	z-index: 400;
+}
+
+#logo {
+	width: 240px;
+	height: 84px;
+	position: absolute;
+	left: 360px;
+	top: 60px;
+}
+
+.titulo a{
+	font-size: 22px;
+	text-decoration: none;
+	color:#ff9f00;
+}
+
+#nav {
+	position: absolute;
+	width: 840px;
+	background: url(images/navBackground.png) repeat;
+	left: 100px;
+	top: 160px;
+	color: white;
+	z-index: 300;
+}
+
+#nav ul#list  {
+	margin: 0 0 0 270px;
+	list-style: none;
+}
+
+#nav ul#list a:link, #nav ul#list a:visited {
+	text-decoration: none;
+}
+
+#nav a:link, #nav a:visited {
+	color: #fff;
+}
+
+#nav a.activePage {
+	color: #ff9f00;
+}
+
+#nav a:hover {
+	color: #ff9f00;
+	text-decoration: none;
+}
+
+#nav ul li{
+	display: inline;
+	font-family:Tahoma, Geneva, sans-serif;
+	letter-spacing: .1em;
+	float: left;
+}
+
+#nav .navPad {
+	margin-top: 10px;
+}
+
+#intro {
+	position: absolute;
+	width: 580px;
+	height: 75px;
+	top: 220px;
+	left: 360px;
+	background: url(images/quotes.png) no-repeat top right;
+}
+
+#intro p#text{
+	padding-top: 20px;
+	font-size: 20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	line-height: 30px;
+	font-style: italic;
+	color: #ff9f00;
+}
+
+#delivery {
+	width: 260px;
+	float: left;
+	padding: 378px 0 0 100px;
+}
+
+#contactInfo {
+	background:url(images/ribbon.png);
+	width: 285px;
+	height: 45px;
+	position: absolute;
+	top: 632px;
+	left: 0px;
+	z-index: 100;
+}
+
+#delInfo {
+	font-size: 11px;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height: 16px;
+	padding: 0 0 10px 0;
+}
+
+#contactInfo #phone {
+	position: absolute;
+	top: -35px;
+	left: 10px;
+}
+
+#number{
+	position: absolute;
+	top: 645px;
+	left: 100px;
+	color: white;
+	z-index: 200;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#home {
+	position: absolute;
+	top: 378px;
+	left: 360px;
+	z-index:300;
+	width: 580px;
+	
+}
+
+#locationFinder {
+	margin-right: 30px;
+	float: left;
+	width: 300px;
+}
+
+#boxTop {
+	width: 300px;
+	height: 75px;
+	background:url(images/locationBoxTop.png) no-repeat;
+}
+
+#boxMiddle {
+	width: 240px;
+	height: 252px;
+	background:url(images/locationBoxMiddle.jpg) repeat-y;
+	padding: 0 30px 30px 30px;
+}
+
+#boxBottom {
+	width: 300px;
+	height: 9px;
+	background:url(images/locationBoxBottom.png) no-repeat;
+}
+
+#inputBoxes {
+	width: 234px;
+	padding-top: 20px;
+}
+
+form input {
+	border: none;
+	color: #fff;
+}
+
+#inputBoxes #zip, #inputBoxes #state {
+	background: url(images/inputBox.jpg) no-repeat;
+	width: 224px;
+	height: 27px;	
+	padding: 0 10px;
+	margin: 10px 0;
+}
+
+form .send{
+	background:url(images/search.jpg) no-repeat;
+	width: 113px;
+	height: 31px;
+}
+
+#ourMenu {
+	float: left;
+	width: 230px;
+	z-index: 200;
+}
+
+#ourMenu p {
+	margin: 0 0 0 40px;
+}
+
+#ourMenu ul li {
+	margin: 0 0 0 40px;
+	line-height: 1.5em;
+	list-style-position: inside;
+}
+
+#ourMenu ul li.textYellow {
+	padding: 5px 0;
+	background:url(images/arrow.jpg) no-repeat center left;
+	text-indent: 1em;
+	margin-left: 30px
+}
+
+#ourMenu a:link, #ourMenu a:visited, #ourMenu a:hover, #ourMenu a:active {
+	color: #704943;
+}
+
+#menuTop {
+	background:url(images/menuBoxTop.png) no-repeat;
+	width: 230px;
+	height: 75px;
+}
+
+#menuMiddle {
+	background:url(images/menuBoxMiddle.jpg) repeat-y;
+	width: 230px;
+	padding-bottom: 30px;
+	height: 252px;
+}
+
+#menuBottom {
+	background:url(images/menuBoxBottom.png) no-repeat;
+	width: 230px;
+	height: 10px;
+}
+
+#subpageHolder {
+	width: 562px;
+	height: 512px;
+	background:url(images/contentArea.jpg) repeat-y;
+	position: absolute;
+	top: 190px;
+	left: 360px;
+	z-index: 200;
+}
+
+#subpageHolderBottom {
+	background:url(images/aboutBoxBottom.png) no-repeat;
+	width: 562px;
+	height: 9px;
+	z-index: 200;
+}
+
+/* These styles are for the about page */
+
+#testimonials {
+	color: #856965;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 11px;
+	line-height:1.3em;
+}
+
+#aboutContent {
+	padding: 0px 25px 0 45px;
+	height: 512px;
+}
+
+#about {
+	margin: 45px 0 20px 0;
+}
+
+#title {
+	padding: 0 0 10px 20px;
+	font-size: 14px;
+}
+
+#testimonials {
+	padding: 0 0 20px 20px;
+}
+
+p.ownerSig {
+	padding: 20px 0 30px 0;
+	font-size: 17px;
+}
+
+.order {
+	font-size: 14px;
+	padding: 0 0 10px 0;
+	letter-spacing: 2px;
+}
+
+p.Delivery {
+	font-size: 30px; 
+	margin-bottom: 10px;
+}
+
+/* These styles are for the menu page */
+
+p.cursive a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+
+#menuContent {
+	height: 512px;
+}
+
+#menu {
+	padding: 45px 30px 0 30px;
+}
+
+#lunchMenu, #dinnerMenu, #wineList {
+	float: left;
+}
+
+#lunchMenu {
+	margin-left: 10px;
+	padding-right: 27px;
+}
+
+#dinnerMenu {
+	padding-left: 13px;
+}
+
+#wineList {
+	padding-left: 41px;
+}
+
+#menu ul li a{
+	margin-left: 13px;
+	font-family: Tahoma, Geneva, Arial;
+	color: #704943;
+	font-size: 11px;
+	line-height: 16px;
+}
+
+#menu p.textYellow {
+	font-family: Times, sans, Arial;
+	padding: 5px 0;
+	background:url(images/arrow.jpg) no-repeat center left;
+	text-indent: 1em;
+}
+
+ul.textDark a {
+	color: #704943;
+}
+
+.left {
+	width: 3px;
+	height: 92px;
+	background:url(images/boxLeft.jpg) no-repeat;
+	float: left;
+}
+
+.center {
+	height: 62px;
+	background:url(images/center.jpg) repeat-x;
+	float: left;
+	padding: 15px 20px;
+}
+
+.right {
+	height: 92px;
+	width: 3px;
+	background:url(images/boxRight.jpg) no-repeat;
+	float: left;
+}
+
+#zipCode {
+	width: 120px;
+	background:url(images/zipCode.jpg) no-repeat;
+	height: 25px;
+	margin-top: 10px;
+	padding: 0 10px;
+}
+
+#menuLocationFinder {
+	margin: 30px 0 0 0;
+}
+
+#downloadMenu {
+	margin-left: 20px;
+	width: 220px;
+	float: right;
+}
+
+#menuInputBoxes #sendzip {
+	background:url(images/search.png);
+	width: 69px;
+	height: 25px;
+	margin-top: 10px;
+}
+
+/* Styles for the reservations page */
+a.clearForm {
+	color: #ff9f00;
+	font-size: 11px;
+}
+
+#reservationContent {
+	height: 512px;
+}
+
+#reservations {
+	padding: 45px 0 0 45px;
+}
+
+#reserve {
+	margin-top: 15px;
+}
+
+.reserve {
+	width: 456px;
+	margin-top: 25px
+}
+
+.formTitles {
+	padding-bottom: 5px;
+	
+}
+
+.formInput {
+	padding-bottom: 30px;
+}
+
+.formInput input{
+	border: none;
+	background:url(images/reservationInput.png) no-repeat;
+	width: 202px;
+	height: 26px;
+	color: #fff;
+	padding: 0 10px;
+}
+
+#reserveNotes textarea {
+	border: none;
+	background:url(images/reserveNotes.png);
+	width: 439px;
+	height: 36px;
+	color: #fff;
+	overflow: auto;
+	padding: 10px;
+}
+
+#reserveSubmit {
+	border: none;
+	background:url(images/makeReservation.png);
+	width: 125px;
+	height: 31px;
+	margin-top: 20px;
+}
+
+/* Styles for the contact page */
+
+#contactContent {
+	height: 512px;
+}
+
+#contact {
+	padding: 45px 0 0 45px;
+}
+
+#message {
+	border: none;
+	background: url(images/messageInput.png) no-repeat;
+	width: 450px;
+	height: 111px;
+	padding: 5px;
+	overflow: auto;
+	color: #fff;
+}
+
+#sendMessage {
+	border: none;
+	background:url(images/sendMessage2.png);
+	width: 113px;
+	height: 31px;
+}
+/* styles for the footer */
+#footer {
+	position: absolute;
+	top:650px;
+	width: 960px;
+	height: 150px;
+	background: url(images/footerBackground.jpg) repeat;
+}
+
+#copywrite {
+	position: absolute;
+	top:100px;
+	left: 100px;
+	width: 200px;
+}
+
+#footerNav {
+	position: absolute;
+	width: 500px;
+	top: 100px;
+	left: 380px;
+}
+#footerNav ul li{
+	display: inline;
+	margin: 0 5px;
+}
+
+#footerNav a:link, #footerNav a:visited {
+	font-size: 11px;
+	color: #704943;
+}
+
+#footerNav a:hover, #footerNav a:active {
+	color: #ff9f00;
+}
+	
+.clear { clear: both; }
+
+.link {
+	color: #ff9f00;
+}
