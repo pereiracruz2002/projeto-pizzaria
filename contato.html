@@ -11,15 +11,6 @@
 <title>Projeto Pizzaria</title>
 <link href="reset.css" rel="stylesheet" type="text/css" />
 <link href="style.css" rel="stylesheet" type="text/css" />
-
-<script src="js/cufon-yui.js" type="text/javascript"></script>
-<script src="js/Walkway_Black_400.font.js" type="text/javascript"></script>
-<script src="js/BlackJack_400.font.js" type="text/javascript"></script>
-<script type="text/javascript">
-Cufon.replace('#nav a, .walkway', { hover: true, fontFamily: 'Walkway Black' });
-Cufon.replace('.ownerSig, .Delivery', { fontFamily: 'BlackJack' });
-</script>
-
 </head>
 
 <body>
@@ -76,7 +67,7 @@ Cufon.replace('.ownerSig, .Delivery', { fontFamily: 'BlackJack' });
 			<div id="contactInfo">
 				<img id="phone" src="images/phone.png" alt="Contact Information" height="72" width="84" />
 			</div><!--END contactInfo-->
-			<div id="home">
+			<div id="home" class="top336">
 				<div id="inputBoxes">
 					<form action="contato.php"  method="post"> 
 						<p class="textYellow">Nome:</p>
@@ -87,7 +78,7 @@ Cufon.replace('.ownerSig, .Delivery', { fontFamily: 'BlackJack' });
 			   			<input type="text" id="zip" name="telefone" />
 			   			<p class="textYellow">Observação:</p>
 			   			<input type="text" id="zip" name="observacao" />
-						<input class="" type="submit" value="Enviar" name="Enviar" />	 
+						<input class="send" type="submit" value="Enviar" name="Enviar" />	 
 					</form>
 				</div>
 			</div><!--home-->

@@ -190,6 +190,10 @@ a:hover, a:active { color: #ff9f00; }
 	top:430px;
 }
 
+#wrapper .top336{
+	top:336px;
+}
+
 #locationFinder {
 	margin-right: 30px;
 	float: left;
