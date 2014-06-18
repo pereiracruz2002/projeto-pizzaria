@@ -63,6 +63,14 @@ a:hover, a:active { color: #ff9f00; }
 	z-index: 400;
 }
 
+#pizza h1 a{
+	display: block;
+	width: 360px;
+	height: 378px;
+	color:#0f0100;
+	text-decoration: none;
+}
+
 #logo {
 	width: 240px;
 	height: 84px;
@@ -251,6 +259,10 @@ form .send{
 	float: left;
 	width: 230px;
 	z-index: 200;
+}
+
+#ourMenu a{
+	text-decoration: none;
 }
 
 #ourMenu p {
