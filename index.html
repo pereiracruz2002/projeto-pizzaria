@@ -11,7 +11,24 @@
 <title>Pizzaria Projeto</title>
 <link href="reset.css" rel="stylesheet" type="text/css" />
 <link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="bjqs.css" type="text/css">
+<link rel="stylesheet" href="demo.css">
 
+<!-- load jQuery and the plugin -->
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="js/bjqs-1.3.min.js"></script>
+
+<script class="secret-source">
+        jQuery(document).ready(function($) {
+
+          $('#banner-fade').bjqs({
+            height      : 280,
+            width       : 620,
+            responsive  : true
+          });
+
+        });
+      </script>
 
 </head>
 
@@ -39,11 +56,19 @@
 				</ul><!--END list-->
 			</div><!--End nav-->
 			
+			
 		<div id="intro">
-				<p id="text">Tradição, qualidade e o melhor da pizza na sua região. <br /></p>
-				<p class="owner textWhite ownerSig">A verdadeira pizza italiana</p>
-			</div><!--intro-->
-		
+			<p id="text">Tradição, qualidade e o melhor da pizza na sua região. <br /></p>
+			<p class="owner textWhite ownerSig">A verdadeira pizza italiana</p>
+			<div id="banner-fade">
+		        <ul class="bjqs">
+		          <li><img src="images/pizza1.jpg" title="As Melhores Pizza da Região"></li>
+		          <li><img src="images/pizza2.jpg" title="Variedade de sabores"></li>
+		          <li><img src="images/pizza3.jpg" title="Atendimento de primeira"></li>
+		        </ul>
+      		</div>
+		</div><!--intro-->
+			
 		
 			<div id="delivery">
 				<p class="textYellow walkway order">Pedidos</p>
@@ -66,66 +91,7 @@
 				<img id="phone" src="images/phone.png" alt="Contact Information" height="72" width="84" />
 			</div><!--END contactInfo-->
 			
-			<div id="home">
-			<div id="locationFinder">
-				<div id="boxTop"></div>
-				<div id="boxMiddle">
-					<p class="textDark">A mais de 20 anos a Pizzaria Projeto faz as melhores pizzas da região com a receita das tradicionais pizzairas italianas.
-				   </p>
-				   
-				   
-				   <div id="inputBoxes">
-						<form action=""  method="post"> 
-							<p class="textYellow">Nome:</p>
-				   			<input type="text" id="zip" name="nome" />
-							<p class="textYellow">Email:</p>
-				   			<input type="text" id="zip" name="email" />
-							<input class="send" type="submit" value="Enviar" name="Enviar" />	 
-						</form>
-				   </div><!-- inputBoxes-->
-				   
-				   
-				</div><!-- boxMiddle-->
-				<div id="boxBottom"></div>
-			</div><!-- locationfinder-->
-			
-			<div id="ourMenu">
-				<div id="menuTop">
-				
-				</div><!-- menuTop-->
-				
-				<div id="menuMiddle">
-					<ul class="textDark">
-						<li class="textYellow arrow">Menu de Pizza</li>
-						<li><a href="#">Napolitana</a></li>
-						<li><a href="#">Mussarella</a></li>
-						<li><a href="#">Calabresa</a></li>
-						<li><a href="#">Frango com catupiri</a></li>
-						<li><a href="#">Bolonhesa</a></li>
-					</ul>
-					
-				
-					<ul class="textDark">
-						<li class="textYellow arrow">Menu Esfihas</li>
-						<li><a href="#">Carne</a></li>
-						<li><a href="#">Queijo</a></li>
-						<li><a href="#">Atum</a></li>
-					</ul>
-					
-					<ul class="textDark">
-						<li class="textYellow arrow">Menu de Vinhos</li>
-						<li><a href="#">Vino Rosso</a></li>
-						<li><a href="#">Bianco</a></li>
-					</ul>
-						
-				</div><!--menuMiddle-->
-				
-				<div id="menuBottom">
-				
-				</div><!--menuBottom-->
-			
-			</div><!--ourMenu--> 
-			</div><!--home-->
+
 			<div class="clear"></div>
 		<div id="footer">
 			<div id="copywrite">
@@ -133,14 +99,7 @@
 			</div><!--copywrite-->
 			
 			<div id="footerNav">
-				<h3>Formas de pagamentos</h3>
-				<ul class="textDark">
-					<li><img src="images/bandeira_bb.png" alt="Banco do Brasil" /></li>
-					<li><img src="images/bandeira_bradesco.png" alt="Bradesco" /></li>
-					<li><img src="images/bandeira_itau.png" alt="Itaú" /></li>
-					<li><img src="images/boleto.png" alt="Boleto" /></li>
-					<li><img src="images/express.png" alt="Express" /></li>
-				</ul>
+				
 				<ul class="textDark">
 					<li class="inactive"><a href="index.html">Home</a></li>
 					<li style="color:#000">|</li>
@@ -151,6 +110,14 @@
 					<li><a href="reservas.html">Reservas</a></li>
 					<li style="color:#000">|</li>
 					<li><a href="contato.html">Contato</a></li>
+				</ul>
+				<h3 class="textYellow">Formas de pagamentos</h3>
+				<ul class="textDark">
+					<li><img src="images/bandeira_bb.png" alt="Banco do Brasil" /></li>
+					<li><img src="images/bandeira_bradesco.png" alt="Bradesco" /></li>
+					<li><img src="images/bandeira_itau.png" alt="Itaú" /></li>
+					<li><img src="images/boleto.png" alt="Boleto" /></li>
+					<li><img src="images/express.png" alt="Express" /></li>
 				</ul>	
 			</div><!--footerNav-->
 		</div><!--footer-->
